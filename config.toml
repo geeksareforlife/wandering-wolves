@@ -1,0 +1,7 @@
+theme = "ww"
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "The Chronicles of the Wandering Wolves"
+
+[build]
+  writeStats = true
