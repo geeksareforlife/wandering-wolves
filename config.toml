@@ -5,3 +5,6 @@ title = "The Chronicles of the Wandering Wolves"
 
 [build]
   writeStats = true
+
+[permalinks]
+  entries = "/:year/:month/:day/"
