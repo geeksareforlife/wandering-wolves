@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ range .Pages }}
+    <article class="text-gray-700 mb-10">
+        <h2 class="leading-7 mb-2">
+          <a href="{{ .Permalink }}">
+              {{ partial "aptisdate.html" .Params.aptisdate }}: {{ .Title }}
+          </a>
+        </h2>
+        {{ .Summary }}
+    </article>
+{{ end }}
+{{ end }}

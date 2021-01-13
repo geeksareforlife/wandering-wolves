@@ -1,18 +1,2 @@
-{{/* 233689 is the first day of 643 */}}
-{{- $datestamp := . -}}
-{{/* Arrays of names */}}
-{{- $months := slice "Needfest" "Fireseek" "Readying" "Coldeven" "Growfest" "Planting" "Flocktime" "Wealsun" "Richfest" "Reaping" "Goodmonth" "Harvester" "Brewfest" -}}
-{{- $days := slice "Starday" "Sun's day" "Moonday" "Godsday" "Waterday" "Earthday" "Freeday" -}}
-{{- $ordinals := slice "" "st" "nd" "rd" "th" "th" "th" "th" "th" "th" "th" "th" "th" "th" "th" "th" "th" "th" "th" "th" "th" "st" "nd" "rd" "th" "th" "th" "th" "th" -}}
-{{/* Calculate all the things!  364 days in a year */}}
-{{- $year := int (math.Ceil (div $datestamp 364.0)) -}}
-{{/* $datestamp - (($year - 1) * 364) */}}
-{{- $dayInYear := sub $datestamp (mul (sub $year 1) 364) -}}
-{{/* Months are zero indexed */}}
-{{- $monthIndex := sub (int (math.Ceil (div $dayInYear 28.0))) 1 -}}
-{{/* $dayInYear - ($monthIndex * 28) */}}
-{{- $dayInMonth := sub $dayInYear (mul $monthIndex 28) -}}
-{{- $weekNumber := int (math.Ceil (div $dayInYear 7.0)) -}}
-{{- $dayInWeek := sub $dayInYear (mul (sub $weekNumber 1) 7) -}}
-{{- $weekDayIndex := sub $dayInWeek 1 -}}
-{{ index $days $weekDayIndex}} {{ $dayInMonth }} {{- index $ordinals $dayInMonth }} of {{ index $months $monthIndex }}, {{ $year -}}
+{{- $dateValues := partial "datecalc.html" . -}}
+{{ $dateValues.weekday }} {{ $dateValues.day }} {{- $dateValues.ordinal }} of {{ $dateValues.monthName }}, {{ $dateValues.year -}}

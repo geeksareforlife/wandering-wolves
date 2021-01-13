@@ -1,3 +1,31 @@
-.starter {
-  color: blue;
+html {
+  @apply font-main text-gray-900;
+}
+
+figure img,
+p img {
+  @apply inline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply text-red-800 font-bold mb-6;
+}
+
+h1 {
+  @apply text-3xl;
+}
+h2 {
+  @apply text-2xl;
+}
+h3 {
+  @apply text-xl;
+}
+h4 {
+  @apply text-lg;
+}
+h5 {
+  @apply text-base;
+}
+h6 {
+  @apply text-sm;
 }

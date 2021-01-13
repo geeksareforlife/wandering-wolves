@@ -1,6 +1,10 @@
 module.exports = {
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        'main': ['Oxygen', 'Helvetica', 'Arial', 'sans-serif']
+      }
+    }
   },
   variants: {},
   plugins: [

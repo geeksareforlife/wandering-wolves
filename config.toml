@@ -7,4 +7,7 @@ title = "The Chronicles of the Wandering Wolves"
   writeStats = true
 
 [permalinks]
-  entries = "/:year/:month/:day/"
+  entries = "/entries/:slug/"
+
+[taxonomies]
+  session = "sessions"
