@@ -6,6 +6,9 @@
     {{ end }}</title>
     {{ hugo.Generator }}
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,200;0,400;0,700;1,100;1,300;1,700&family=MedievalSharp&display=swap" rel="stylesheet">
+
     {{- $styles := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") -}}
     {{- if .Site.IsServer }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}">

@@ -1,6 +1,10 @@
 {{ define "main" }}
-<article class="text-center text-gray-700">
-    <h1 class="font-serif font-extralight text-5xl text-gray-500">{{ .Title }}</h1>
-    {{ .Content }}
+{{ $pages := where site.RegularPages "Type" "entries" }}
+
+<article class="text-gray-700">
+    <h1 class="text-5xl text-center text-white bg-red-800 py-24 mt-8 md:mt-36 lg:mt-56 mb-0">{{ .Title }}</h1>
+    {{ range first 1 ($pages.ByParam "aptisdate").Reverse }}
+      <a href="{{- .Permalink -}}" class="block text-center text-xl mt-4">Latest Entry</a>
+    {{- end }}
 </article>
 {{ end }}

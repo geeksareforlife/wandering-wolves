@@ -1,5 +1,9 @@
 html {
-  @apply font-main text-gray-900;
+  @apply font-main text-gray-900 bg-yellow-50 font-normal;
+}
+
+body {
+  @apply text-lg;
 }
 
 figure img,
@@ -8,24 +12,46 @@ p img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @apply text-red-800 font-bold mb-6;
+  @apply font-title text-red-800 font-bold mb-6;
 }
 
 h1 {
-  @apply text-3xl;
+  @apply text-6xl;
 }
 h2 {
-  @apply text-2xl;
+  @apply text-5xl;
 }
 h3 {
-  @apply text-xl;
+  @apply text-4xl;
 }
 h4 {
-  @apply text-lg;
+  @apply text-3xl;
 }
 h5 {
-  @apply text-base;
+  @apply text-2xl;
 }
 h6 {
-  @apply text-sm;
+  @apply text-xl;
+}
+
+article p,
+article .highlight {
+  @apply mb-4 leading-relaxed;
+}
+
+a {
+  @apply text-red-800;
+}
+
+a:hover {
+  @apply underline;
+}
+
+.link-missing {
+  @apply text-purple-700 font-bold cursor-not-allowed;
+
+}
+
+article > p:first-of-type::first-letter {
+  @apply font-title text-6xl float-left text-red-800 font-bold pr-1 pt-1;
 }

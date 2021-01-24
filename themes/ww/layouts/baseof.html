@@ -1,11 +1,11 @@
-{{/* Base Template for most pages */}}
+{{/* Base Template just for top level pages like index and 404 */}}
 <!DOCTYPE html>
 <html lang='{{ .Site.LanguageCode }}'>
     {{ partial "head.html" . }}
     <body class="flex flex-col min-h-screen">
         {{- partial "dev-size-indicator.html" . -}}
-        {{- partial "header.html" . -}}
-        <main class="relative flex-1 mx-8 md:mx-10 lg:mx-12 mt-6 sm:mt-8 mb-12">
+        {{- partial "header.html" . "fixed bottom-0" -}}
+        <main class="flex-1 mt-4">
         {{- block "main" . }}{{- end }}
         </main>
     </body>

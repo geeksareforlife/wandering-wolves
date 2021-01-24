@@ -1,7 +1,11 @@
 {{ define "main" }}
-<article class="text-gray-700 sm:mx-12 mb-16 prose lg:prose-lg prose-blue">
-    <h1>{{ .Title }}</h1>
-    <h3>{{ partial "aptisdate.html" .Params.aptisdate }}</h3>
+<article>
+    <h1>{{ partial "aptisdate.html" .Params.aptisdate }}</h1>
+    <h5 class="font-normal"> {{ .Title }}</h5>
     {{ .Content }}
+    <moons class="flex flex-row justify-center">
+      {{ partial "moon-luna.html" .Params.aptisdate }}
+      {{ partial "moon-celene.html" .Params.aptisdate }}
+    </moons>
 </article>
 {{ end }}

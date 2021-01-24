@@ -8,6 +8,8 @@ title = "The Chronicles of the Wandering Wolves"
 
 [permalinks]
   entries = "/entries/:slug/"
+  locations = "/locations/:slug/"
 
 [taxonomies]
   session = "sessions"
+  place = "places"

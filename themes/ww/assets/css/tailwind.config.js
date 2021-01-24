@@ -2,12 +2,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'main': ['Oxygen', 'Helvetica', 'Arial', 'sans-serif']
+        'title': ['MedievalSharp', 'serif'],
+        'main': ['Lato', 'Helvetica', 'Arial', 'sans-serif']
       }
     }
   },
   variants: {},
-  plugins: [
-    require('@tailwindcss/typography'),
-  ]
+  plugins: []
 }
