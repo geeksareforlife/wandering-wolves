@@ -3,9 +3,25 @@
     <h1>{{ partial "aptisdate.html" .Params.aptisdate }}</h1>
     <h5 class="font-normal"> {{ .Title }}</h5>
     {{ .Content }}
-    <moons class="flex flex-row justify-center">
-      {{ partial "moon-luna.html" .Params.aptisdate }}
-      {{ partial "moon-celene.html" .Params.aptisdate }}
-    </moons>
+
+    <div class="flex flew-row flex-wrap justify-between items-center">
+
+      <moons class="flex flex-row justify-center">
+        {{ partial "moon-luna.html" .Params.aptisdate }}
+        {{ partial "moon-celene.html" .Params.aptisdate }}
+      </moons>
+
+      <div class="w-35 my-6 md:order-first">
+        {{ with .PrevInSection }}
+          <a href="{{ .Permalink }}" class="font-title text-xl">< Prev Entry</a>
+        {{ end }}
+      </div>
+
+      <div class="w-35 my-6 text-right">
+        {{ with .NextInSection }}
+          <a href="{{ .Permalink }}" class="font-title text-xl">Next Entry ></a>
+        {{ end }}
+      </div>
+
 </article>
 {{ end }}

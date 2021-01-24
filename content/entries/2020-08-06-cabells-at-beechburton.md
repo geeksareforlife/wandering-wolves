@@ -17,5 +17,4 @@ When we arrived at Cabell Manor, we noticed that the ground floor windows are sh
 
 He told us about a visitor they had a week ago who claimed that they had made a deal with Athon's ancestors. This deal guaranteed the families success, in return for one member of the family every 100 years. Athon turned them away and every night since the manor has been besieged by a ferocious hell hound. They promise payment if we help them.
 
-Dusk is now coming and Athon has gone to the study with Henry. Katrin is going to help with a crossbow from an upper floor window. We will see what comes tonight.
-
+Dusk is now coming and Athon has gone to the study with Henry. Katrin is going to help with a crossbow from an upper floor window. The rest of us have taken up positions in the grounds of the manor: Tooms is in the large tree close to the house, I am crouched by the gates and Grun has turned himself into a cow and waits in the field across the road. We will see what comes tonight.
