@@ -1,5 +1,5 @@
 theme = "ww"
-baseURL = "http://www.wandering-wolves.co.uk/"
+baseURL = "https://www.wandering-wolves.co.uk/"
 languageCode = "en-us"
 title = "The Chronicles of the Wandering Wolves"
 
