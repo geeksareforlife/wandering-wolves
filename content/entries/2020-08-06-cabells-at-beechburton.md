@@ -6,7 +6,6 @@ date: 2020-08-06T19:00:00Z
 ssulg: "cabells-at-beechburton"
 sessions:
   - 2020-08-06
-draft: true
 ---
 
 My two new companions, Tooms and Grun, and I have arrived at Beechburton. We have heard of a family in trouble and have come to offer assistance, hopefully for a large reward! Beechburton is small, almost not here.  There can't be more than a hundred people living here.
