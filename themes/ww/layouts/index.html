@@ -4,7 +4,7 @@
 <article class="text-gray-700">
     <h1 class="text-5xl text-center text-white bg-red-800 py-24 mt-8 md:mt-36 lg:mt-56 mb-0">{{ .Title }}</h1>
     {{ range first 1 ($pages.ByParam "aptisdate").Reverse }}
-      <a href="{{- .Permalink -}}" class="block text-center text-xl mt-4">Latest Entry</a>
+      <a href="{{- .Permalink -}}" class="block text-center text-xl mt-4"> {{ partial "aptisdate.html" .Params.aptisdate }}: {{ .Title }} </a>
     {{- end }}
 </article>
 {{ end }}

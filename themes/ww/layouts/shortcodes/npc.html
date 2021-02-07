@@ -1,9 +1,11 @@
-{{ $npc := replace (.Get 0) "'" "" }}
-{{ $npc := lower (replace $npc " " "-") }}
-{{ $page := .Page.GetPage ($npc | printf "%s%s" "/npcs/") }}
+{{- $npc := replace (.Get 0) "'" "" -}}
+{{- $npc := lower (replace $npc " " "-") -}}
+{{- $page := .Page.GetPage ($npc | printf "%s%s" "/npcs/") -}}
+{{- $replaceTitle := .Get 1 -}}
 
-{{ if not $page }}
-  <span class="link-missing"> {{- (.Get 0) -}} </span>
-{{ else }}
-  <a href=" {{- $page.Permalink -}} " class="link-npc"> {{- $page.Title -}} </a>
-{{ end }}
+
+{{- if not $page -}}
+  <span class="link-missing"> {{- if $replaceTitle -}} {{- $replaceTitle -}} {{- else -}} {{- (.Get 0) -}} {{- end -}} </span>
+{{- else -}}
+  <a href=" {{- $page.Permalink -}} " class="link-npc"> {{- if $replaceTitle -}} {{- $replaceTitle -}} {{- else -}} {{- $page.Title -}} {{- end -}} </a>
+{{- end -}}

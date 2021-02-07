@@ -6,11 +6,6 @@ body {
   @apply text-lg;
 }
 
-figure img,
-p img {
-  @apply inline;
-}
-
 h1, h2, h3, h4, h5, h6 {
   @apply font-title text-red-800 font-bold mb-6;
 }
@@ -34,6 +29,15 @@ h6 {
   @apply text-xl;
 }
 
+figure img,
+p img {
+  @apply inline;
+}
+
+figure h4 {
+  @apply font-main mt-2 text-lg;
+}
+
 article p,
 article .highlight {
   @apply mb-4 leading-relaxed;
@@ -53,5 +57,13 @@ a:hover {
 }
 
 article > p:first-of-type::first-letter {
-  @apply font-title text-6xl float-left text-red-800 font-bold pr-1 pt-1;
+  @apply font-title text-5xl float-left text-red-800 font-bold pr-3 pt-1;
+}
+
+.footer-main {
+  @apply bg-red-800 text-white;
+}
+
+.footer-main a.footer-link {
+  @apply text-white;
 }
