@@ -60,6 +60,10 @@ article > p:first-of-type::first-letter {
   @apply font-title text-5xl float-left text-red-800 font-bold pr-3 pt-1;
 }
 
+article.list > p:first-of-type::first-letter {
+  @apply text-3xl pr-1;
+}
+
 .footer-main {
   @apply bg-red-800 text-white;
 }

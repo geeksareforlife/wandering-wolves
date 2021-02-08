@@ -4,7 +4,7 @@ author: "Seral"
 found: 233842
 date: {{ .Date }}
 slug: "{{ lower .Name }}"
-places:
-  - place
+groups:
+  - group
 draft: true
 ---
