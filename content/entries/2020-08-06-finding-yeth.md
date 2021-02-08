@@ -3,7 +3,7 @@ title: Finding Yeth
 author: "Seral"
 aptisdate: 233843
 date: 2020-08-06T21:00:00Z
-slug: "finding-yeth"
+slug: finding-yeth
 sessions:
   - 2020-08-06
 ---
@@ -20,4 +20,4 @@ Tooms told us to keep her busy and then ran from the tomb while Grun and I engag
 
 We took Henry back to the house and discovered that Tooms had convinced Athon to sign the house and lordship over to him, nullifying the contract. He is now Lord Tufail ibn Usama ibn Masoud Al-Jamra, and the Cabells are living in his manor home, managing its upkeep.
 
-The {{< group "Cabells" >}} are extremely grateful and rewarded us all with small pouches of gold, as well as paying for rooms at the inn in town.
+The {{< group "Cabell Family" "Cabells" >}} are extremely grateful and rewarded us all with small pouches of gold, as well as paying for rooms at the inn in town.
