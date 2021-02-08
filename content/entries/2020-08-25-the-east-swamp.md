@@ -6,6 +6,7 @@ date: 2020-08-25T19:00:00Z
 slug: "the-east-swamp"
 sessions:
   - 2020-08-25
+draft: true
 ---
 
 This morning we met {{< npc "Pennich" >}}, a trader for the {{< org "Westford Trading Company" >}}. We have agreed to escort him on his journey to {{< location "Underbrow-on-Grime" >}} in return for an introduction to Westford. We leave in the morning.
