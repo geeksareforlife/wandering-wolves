@@ -8,6 +8,6 @@ groups:
   - Cabell Family
 ---
 
-Athon is a human man, head of the Cabell Family.
+Athon is a human man, head of the Cabell Family.<!--more-->
 
 He is married to {{< npc "Katrin Cabell" >}} and together they have a son, {{< npc "Henry Cabell" "Henry" >}}

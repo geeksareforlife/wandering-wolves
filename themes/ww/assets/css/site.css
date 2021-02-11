@@ -14,28 +14,36 @@ h1 {
   @apply text-6xl;
 }
 h2 {
-  @apply text-5xl;
-}
-h3 {
   @apply text-4xl;
 }
-h4 {
+h3 {
   @apply text-3xl;
 }
-h5 {
+h4 {
   @apply text-2xl;
 }
-h6 {
+h5 {
   @apply text-xl;
 }
-
-figure img,
-p img {
-  @apply inline;
+h6 {
+  @apply text-lg;
 }
 
-figure h4 {
-  @apply font-main mt-2 text-lg;
+figure img {
+  margin: 0 auto;
+}
+
+figcaption h4,
+figcaption p {
+  @apply text-center;
+}
+
+figcaption h4 {
+  @apply font-main mt-2 mb-0 text-lg text-gray-900;
+}
+
+figcaption p {
+  @apply text-sm m-0;
 }
 
 article p,

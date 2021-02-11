@@ -8,6 +8,6 @@ groups:
   - Cabell Family
 ---
 
-Berry was the Halfling housekeeper of the {{< group "Cabell Family" >}}<!-- more -->, but we never actually met her.
+Berry was the Halfling housekeeper of the {{< group "Cabell Family" >}}, but we never actually met her.<!--more-->
 
 She was killed before we arrived in {{< place Beechburton >}} by {{< npc Yeth >}} who then took her place.

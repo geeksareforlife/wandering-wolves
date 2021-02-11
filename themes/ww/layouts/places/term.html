@@ -3,11 +3,12 @@
 {{ .Content }}
 {{ range .Pages }}
     <article class="mt-10">
-        <h3 class="mb-2">
+        <h2 class="mb-2">
           <a href="{{ .Permalink }}">
               {{ .Title }}
           </a>
         </h2>
+        {{ .Summary }}
     </article>
 {{ end }}
 {{ end }}

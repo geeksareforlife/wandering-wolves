@@ -8,7 +8,7 @@ sessions:
   - 2020-08-06
 ---
 
-Last night happened extremely quickly. Almost as soon as dusk fell three large otherworldly hounds fell upon the house. Together we managed to fight them off, but as the last one feel we heard a scream from the house - {{< npc "Athon Cabell" "Athon" >}} had been knocked unconscious and {{< npc "Henry Cabell" "Henry" >}} had been taken out through the side door and into the forest. {{< npc "Katrin Cabell" "Katrin" >}} had not seen who did it, but {{< npc "Berry Staypell" "Berry" >}} the housekeeper is also missing. We took off into the forest, tracking footprints.
+Last night happened extremely quickly. Almost as soon as dusk fell three large otherworldly hounds fell upon the house. Together we managed to fight them off, but as the last one feel we heard a scream from the house - {{< npc "Athon Cabell" "Athon" >}} had been knocked unconscious and {{< npc "Henry Cabell" "Henry" >}} had been taken out through the side door and into the forest.<!--more--> {{< npc "Katrin Cabell" "Katrin" >}} had not seen who did it, but {{< npc "Berry Staypell" "Berry" >}} the housekeeper is also missing. We took off into the forest, tracking footprints.
 
 The tracks lead us a short distance to a low stone building - the Cabell family tomb. Down in the tomb we found Berry, who was scrawling runes on the wall and performing a rite of some sort. Henry was a short distance away from her. We got her attention and she told us that she was {{< npc "Yeth" >}}, and produced the contract that Richard Cabell, Athon's ancestor, had signed 400 years ago. It appeared iron-clad, and is pasted below.
 

@@ -1,10 +1,18 @@
 {{ define "main" }}
 <article>
     <h1>{{ partial "aptisdate.html" .Params.aptisdate }}</h1>
-    <h5 class="font-normal"> {{ .Title }}</h5>
+    <h3 class="font-normal"> {{ .Title }}</h3>
     {{ .Content }}
 
-    <div class="clear-both flex flew-row flex-wrap justify-between items-center">
+    {{ with (.GetTerms "sessions") }}
+    <ul id="sessions" class="flex flex-row">
+      {{ range . }}
+        {{ partial "tag.html" . }}
+      {{ end }}
+    </ul>
+    {{ end }}
+
+    <div class="clear-both flex flew-row flex-wrap justify-between items-center mt-6">
 
       <moons class="flex flex-row justify-center">
         {{ partial "moon-luna.html" .Params.aptisdate }}

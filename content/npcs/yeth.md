@@ -7,4 +7,4 @@ slug: yeth
 groups: 
 ---
 
-Yeth is a demon of the nine hells, and had a contract with the {{< group "Cabell Family" >}} for 400 years
+Yeth is a demon of the nine hells, and had a contract with the {{< group "Cabell Family" >}} for 400 years<!--more-->

@@ -1,0 +1,22 @@
+{{ define "main" }}
+<h1>NPCs</h1>
+{{ range .Pages }}
+    <article class="list mb-10">
+        <h2 class="mb-2">
+          <a href="{{ .Permalink }}">
+            {{ .Title }}
+          </a>
+        </h2>
+
+        {{ with ((.GetTerms "places") | append (.GetTerms "orgs")) }}
+        <ul id="tags" class="flex flex-row mb-3">
+          {{ range . }}
+            {{ partial "tag.html" . }}
+          {{ end }}
+        </ul>
+        {{ end }}
+
+        {{ .Summary }}
+    </article>
+{{ end }}
+{{ end }}

@@ -8,4 +8,4 @@ groups:
   - Cabell Family
 ---
 
-The son of {{< npc "Athon Cabell" "Athon" >}} and {{< npc "Katrin Cabell" "Katrin" >}}.
+The son of {{< npc "Athon Cabell" "Athon" >}} and {{< npc "Katrin Cabell" "Katrin" >}}.<!--more-->

@@ -1,0 +1,14 @@
+<li class="inline-block">
+  {{ if eq .Type "orgs" }}
+  <a class="bg-white border border-blue-800 hover:bg-blue-800 text-blue-800 hover:text-white rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-1 hover:no-underline" href="{{ .Permalink }}">
+  {{ else }}
+  <a class="bg-white border border-red-800 hover:bg-red-800 text-red-800 hover:text-white rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-1 hover:no-underline" href="{{ .Permalink }}">
+  {{ end }}
+
+  {{ if eq .Type "sessions" }}
+    <span class="far fa-tag mr-1"></span> <span class="p-category">{{ dateFormat "Monday, Jan 2, 2006" .LinkTitle }}</span>
+  {{ else }}
+    <span class="far fa-tag mr-1"></span> <span class="p-category">{{ .LinkTitle }}</span>
+  {{ end }}
+  </a>
+</li>

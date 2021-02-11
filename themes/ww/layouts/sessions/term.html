@@ -1,7 +1,8 @@
 {{ define "main" }}
+<h1>Session: {{ dateFormat "Monday, Jan 2, 2006" .Title }}</h1>
 {{ range .Pages }}
-    <article class="text-gray-700 mb-10">
-        <h2 class="leading-7 mb-2">
+    <article class="list text-gray-700 mb-10">
+        <h2 class="mb-2">
           <a href="{{ .Permalink }}">
               {{ partial "aptisdate.html" .Params.aptisdate }}: {{ .Title }}
           </a>

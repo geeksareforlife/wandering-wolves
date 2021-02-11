@@ -7,5 +7,5 @@ slug: doyle
 groups:
 ---
 
-Doyle is the large human man who runs {{< location "Doyle's Inn" >}}.<!-- more -->
+Doyle is the large human man who runs {{< location "Doyle's Inn" >}}.<!--more-->
 

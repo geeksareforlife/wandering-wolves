@@ -8,6 +8,6 @@ places:
   - beechburton
 ---
 
-Cabell Manor, the ancestral home of the {{< group "Cabell Family" >}}, lies on the outskirts of Beechburton.
+Cabell Manor, the ancestral home of the {{< group "Cabell Family" >}}, lies on the outskirts of Beechburton.<!--more-->
 
 The home is now owned by Tooms, as it was signed over to him to break {{< npc "Yeth" "Yeth's" >}} contract with the family and save {{< npc "Henry Cabell" "Henry" >}}.

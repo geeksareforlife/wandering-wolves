@@ -1,0 +1,15 @@
+{{ define "main" }}
+<article>
+    <h1>{{ .Title }}</h1>
+
+    {{ with ((.GetTerms "places") | append (.GetTerms "orgs")) }}
+    <ul id="tags" class="flex flex-row mb-6">
+      {{ range . }}
+        {{ partial "tag.html" . }}
+      {{ end }}
+    </ul>
+    {{ end }}
+
+    {{ .Content }}
+</article>
+{{ end }}
