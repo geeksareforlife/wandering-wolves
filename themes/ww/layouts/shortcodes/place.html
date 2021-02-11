@@ -1,5 +1,4 @@
-{{- $place := replace (.Get 0) "'" "" -}}
-{{- $place := lower (replace $place " " "-") -}}
+{{- $place := partial "parsething.html" (.Get 0) -}}
 {{- $page := .Page.GetPage ($place | printf "%s%s" "/places/") -}}
 {{- $replaceTitle := .Get 1 -}}
 

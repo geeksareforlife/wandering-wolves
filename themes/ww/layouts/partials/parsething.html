@@ -1,0 +1,5 @@
+{{- $thing := replace . "'" "" -}}
+{{- $thing := replace $thing "(" "" -}}
+{{- $thing := replace $thing ")" "" -}}
+{{- $thing := lower (replace $thing " " "-") -}}
+{{- return $thing -}}
