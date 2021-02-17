@@ -8,9 +8,9 @@ sessions:
   - 2020-08-25
 ---
 
-This morning we met {{< npc "Pennich" >}}, a trader for the {{< org "Westford Trading Company" >}}. We have agreed to escort him on his journey to {{< location "Underbrow-on-Grime" >}} in return for an introduction to Westford. We leave in the morning.<!--more-->
+This morning we met {{< npc "Pennich" >}}, a trader for the {{< org "Westford Trading Company" >}}. We have agreed to escort him on his journey to {{< place "Underbrow-on-Grime" >}} in return for an introduction to Westford. We leave in the morning.<!--more-->
 
-{{< npc "Katrin Cabell" "Lady Cabell" >}} also visits us at breakfast. She has received a letter from an old friend, the {{< npc "Abess Habed" "The Abess" >}} of {{< location "Temple of Lathanda" >}}, which has concerned her and would like us to visit her and help if we can. As the temple is also in Underbrow, we let her know that we will try.
+{{< npc "Katrin Cabell" "Lady Cabell" >}} also visits us at breakfast. She has received a letter from an old friend, the {{< npc "Abess Habed" "The Abess" >}} of {{< location "Temple of Lathander (Underbrow)" "Temple of Lathander" >}}, which has concerned her and would like us to visit her and help if we can. As the temple is also in Underbrow, we let her know that we will try.
 
 {{< figure src="/images/hrun.png" title="Hrun" alt="Hrun" attr="[Kit Draws](https://kitdraws.com/)" class="sm:float-right sm:ml-6" width="150" >}}
 

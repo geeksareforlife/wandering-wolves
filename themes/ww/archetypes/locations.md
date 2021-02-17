@@ -6,5 +6,4 @@ date: {{ .Date }}
 slug: {{ lower .Name }}
 places:
   - place
-draft: true
 ---

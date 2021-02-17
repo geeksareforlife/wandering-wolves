@@ -1,6 +1,8 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ .Content }}
+<article>
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</article>
 {{ range .Pages }}
     <article class="mt-10">
         <h2 class="mb-2">

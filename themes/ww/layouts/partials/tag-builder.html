@@ -1,0 +1,5 @@
+{{- $slug := partial "parsething.html" .tag -}}
+{{- with .context.Site.GetPage (printf "/%s/%s" .type $slug) -}}
+  {{- $tag := dict "Type" "orgs" "Permalink" .Permalink "LinkTitle" .Title -}}
+  {{- partial "tag.html" $tag -}}
+{{- end -}}

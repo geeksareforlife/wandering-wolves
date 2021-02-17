@@ -1,8 +1,11 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ .Content }}
+<article>
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</article>
+
 {{ range .Pages.GroupBy "Section" }}
-  <h2 class="mb-4">
+  <h2 class="clear-both mt-8 mb-4">
   {{ with $.Site.GetPage "section" .Key }}
     {{ .Title }}
   {{ else }}
@@ -11,7 +14,7 @@
   </h2>
 
   {{ range .Pages }}
-    <article class="list mb-10">
+    <article class="list mb-4">
         <h3 class="mb-2">
           <a href="{{ .Permalink }}">
               {{ .Title }}

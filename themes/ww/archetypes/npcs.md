@@ -6,5 +6,4 @@ date: {{ .Date }}
 slug: {{ lower .Name }}
 groups:
   - group
-draft: true
 ---
