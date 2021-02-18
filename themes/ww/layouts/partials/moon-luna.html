@@ -1,5 +1,9 @@
-{{- $dateValues := partial "datecalc.html" . -}}
+{{- $dateValues := partial "datecalc.html" .date -}}
 {{- $phases := slice "" "New Moon" "New Moon" "New Moon" "New Moon" "Waxing Crescent" "Waxing Crescent" "Waxing Crescent" "First Quarter" "First Quarter" "First Quarter" "First Quarter" "Waxing Gibbous" "Waxing Gibbous" "Waxing Gibbous" "Full Moon" "Full Moon" "Full Moon" "Full Moon" "Waning Gibbous" "Waning Gibbous" "Waning Gibbous" "Last Quarter" "Last Quarter" "Last Quarter" "Last Quarter" "Waning Crescent" "Waning Crescent" "Waning Crescent" -}}
 {{- $phase := index $phases $dateValues.luna -}}
-{{- $file := replace (lower $phase) " " "-" -}}
-{{ partial "moon-display.html" (dict "File" $file "Phase" $phase "Name" "Luna") }}
+{{- $file := printf "%s-%s" "luna" (replace (lower $phase) " " "-") -}}
+{{- if eq .size "large" -}}
+  {{ partial "moon-display-large.html" (dict "File" $file "Phase" $phase "Name" "Luna") }}
+{{- else -}}
+  {{ partial "moon-display-small.html" (dict "File" $file "Phase" $phase "Name" "Luna") }}
+{{- end -}}

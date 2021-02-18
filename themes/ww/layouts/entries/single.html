@@ -15,8 +15,8 @@
     <div class="clear-both flex flew-row flex-wrap justify-between items-center mt-6">
 
       <moons class="flex flex-row justify-center">
-        {{ partial "moon-luna.html" .Params.aptisdate }}
-        {{ partial "moon-celene.html" .Params.aptisdate }}
+        {{ partial "moon-luna.html" (dict "date" .Params.aptisdate "size" "large") }}
+        {{ partial "moon-celene.html" (dict "date" .Params.aptisdate "size" "large") }}
       </moons>
 
       <div class="w-36 my-6 md:order-first">

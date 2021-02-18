@@ -2,7 +2,9 @@
 <h1>The Chronicles</h1>
 {{ range .Pages }}
     <article class="list mb-10">
-        <h2 class="mb-2">
+        <h2 class="mb-2 flex flex-row place-items-center">
+          {{ partial "moon-luna.html" (dict "date" .Params.aptisdate "size" "small") }}
+        {{ partial "moon-celene.html" (dict "date" .Params.aptisdate "size" "small") }}
           <a href="{{ .Permalink }}">
             {{ partial "aptisdate.html" .Params.aptisdate }}: {{ .Title }}
           </a>
