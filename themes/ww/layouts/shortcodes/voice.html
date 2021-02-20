@@ -1,0 +1,6 @@
+<div class="voice {{- with .Get "of" }} voice- {{- . -}} {{- end -}} ">
+  {{ .Inner | markdownify }}
+  {{- with .Get "of" -}}
+  <p class="of"> {{ . | title }} </p>
+  {{- end -}}
+</div>

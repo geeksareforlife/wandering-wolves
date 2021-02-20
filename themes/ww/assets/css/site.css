@@ -79,3 +79,20 @@ article.list > p:first-of-type::first-letter {
 .footer-main a.footer-link {
   @apply text-white;
 }
+
+.voice {
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  @apply p-4 border-solid border-4 border-gray-800 mb-4 relative;
+}
+
+.voice p.of {
+  @apply m-0 absolute bottom-4 right-4 font-bold;
+}
+
+.voice-grun {
+  @apply bg-green-50;
+}
+
+.voice-tooms {
+  @apply bg-red-100;
+}
