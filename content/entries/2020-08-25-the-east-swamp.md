@@ -22,6 +22,4 @@ The East swamp was just outside the village, but when we arrived there was a str
 
 Eventually we found the flower and returned to Ethel, buying a couple of potions.
 
-Later in the evening, we managed to buy three horses from the local stable. I named my white mare Ghost, Tooms named his piebald gelding Jeroboam (Jerry) and Grun named his brown mare Tabeesie.
-
 After dinner at {{< location "Doyle's Inn" >}}, we retired for the evening so we would be ready for our journey to Underbrow tomorrow.
