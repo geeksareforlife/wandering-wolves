@@ -5,7 +5,7 @@
     {{ .Content }}
 
     {{ with (.GetTerms "sessions") }}
-    <ul id="sessions" class="flex flex-row">
+    <ul id="sessions" class="clear-both flex flex-row">
       {{ range . }}
         {{ partial "tag.html" . }}
       {{ end }}

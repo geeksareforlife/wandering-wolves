@@ -18,7 +18,7 @@ After the battle, we discovered a couple of barrels of ale with "Silver Oak" sta
 
 We headed to Underbrow and met a guard at the gate - {{< npc Stine >}}. We handed Danyl over to him, and discovered that we could probably find Susanne in the {{< location "Cleft Boulder" >}}, where she is staying.
 
-We also discovered that the {{< location "Silver Oak" >}} is another inn which is in the north of the town, is the more upmarket area.
+We met {{< npc "Marta" >}} who seemed to be living on the street. She let us know that  the {{< location "Silver Oak" >}} is another inn which is in the north of the town, in the more upmarket area.
 
 We headed directly to the Silver Oak, which has a female goliath guarding it. After we showed her the barrels she let us in and we met {{< npc Vayne >}} who is grateful to us for returning them. She offers us rooms for the night in return which we accept.
 

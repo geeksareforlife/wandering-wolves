@@ -1,4 +1,4 @@
-<div class="voice {{- with .Get "of" }} voice- {{- . -}} {{- end -}} ">
+<div class="clear-both voice {{- with .Get "of" }} voice- {{- . -}} {{- end -}} ">
   {{ .Inner | markdownify }}
   {{- with .Get "of" -}}
   <p class="of"> {{ . | title }} </p>
