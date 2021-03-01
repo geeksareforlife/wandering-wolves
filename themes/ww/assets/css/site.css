@@ -99,11 +99,11 @@ article.list > p:first-of-type::first-letter {
 
 .letter {
   border-width: 3px 3px 5px 5px;
-  border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
-  transform: rotate(-2deg);
+  border-radius: 16px 95% 24px 95%/95% 16px 92% 20px;
+  transform: rotate(-1deg);
   @apply p-3 border-solid border-black bg-white;
 }
 
 .letter div {
-  transform: rotate(2deg);
+  transform: rotate(1deg);
 }

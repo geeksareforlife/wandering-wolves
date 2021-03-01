@@ -9,7 +9,7 @@ sessions:
   - "2020-09-17"
 ---
 
-At breakfast (which was amazing after three days of travelling rations) {{< npc "Pennich" >}} visited and gave us our club cards for the {{< org "Westford Trading Company" >}}. These turned out to be mini actual clubs!
+At breakfast (which was amazing after three days of travelling rations) {{< npc "Pennich" >}} visited and gave us our club cards for the {{< org "Westford Trading Company" >}}. These turned out to be mini actual clubs!<!--more-->
 
 On the way to the {{< location "Westford Underbrow" "Underbrow branch" >}} of the Westford Trading Company, Grun noticed a plant store and nipped inside, returning with a small vine attached to his backpack.
 
@@ -67,7 +67,7 @@ Your recent activities have bolstered our forces from your region significantly.
 Together we will achieve our objective. Have faith and you will be rewarded.
 {{< /letter >}}
 
-We returned to the temple and discovered that Lendrew has family in the Stonefarrow mountains to the south, in {{< place "Caltran's Roost" >}}. We also informed the Abess of the juvenile dragon in caverns, but explained that we can't currently help with it. She thanked us for our help finding Emers.
+We returned to the temple and discovered that Lendrew has family in the Stonefarrow mountains to the south, in {{< place "Caltan's Roost" >}}. We also informed the Abess of the juvenile dragon in caverns, but explained that we can't currently help with it. She thanked us for our help finding Emers.
 
 Finally we return to the Silver Oak for dinner, and {{< npc "Marta" >}} brought us a message from Alf - he would like to see us tomorrow.
 

@@ -6,6 +6,7 @@ date: 2020-09-10T19:00:00Z
 slug: lendrew
 groups:
   - Order of the Moon
+  - Dahru Family
 orgs:
   - Church of Lathander
 ---

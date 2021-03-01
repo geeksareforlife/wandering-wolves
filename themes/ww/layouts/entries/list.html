@@ -1,14 +1,22 @@
 {{ define "main" }}
+{{- $scratch := .Scratch -}}
+{{- $scratch.Set "month" "11" -}}
+
 <h1>The Chronicles</h1>
 {{ range .Pages }}
+    {{- $date := partial "datecalc.html" .Params.aptisdate -}}
+    {{- if ne $date.monthName ($scratch.Get "month") -}}
+    {{- $scratch.Set "month" $date.monthName -}}
+    <h2>{{ $date.monthName }} of the year {{ $date.year }}</h2>
+    {{- end -}}
     <article class="list mb-10">
-        <h2 class="mb-2 flex flex-row place-items-center">
+        <h3 class="mb-2 flex flex-row place-items-center">
           {{ partial "moon-luna.html" (dict "date" .Params.aptisdate "size" "small") }}
         {{ partial "moon-celene.html" (dict "date" .Params.aptisdate "size" "small") }}
           <a href="{{ .Permalink }}">
-            {{ partial "aptisdate.html" .Params.aptisdate }}: {{ .Title }}
+            {{ $date.weekday }} the {{ $date.day }} {{- $date.ordinal -}} : {{ .Title }}
           </a>
-        </h2>
+        </h3>
         {{ .Summary }}
     </article>
 {{ end }}

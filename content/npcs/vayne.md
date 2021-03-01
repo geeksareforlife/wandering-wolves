@@ -10,5 +10,5 @@ groups:
 
 Vayne is the elven woman who owns the {{< location "Silver Oak" >}}.<!--more-->
 
-She is approximately middle aged with long red hair. Her almost identical sister, {{< npc "Avery" >}}, runs the a local clothes store.
+She is approximately middle aged with long red hair. Her almost identical sister, {{< npc "Avery" >}}, runs the local clothes store.
 
