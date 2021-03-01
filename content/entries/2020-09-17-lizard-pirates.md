@@ -7,7 +7,6 @@ slug: lizard-pirates
 sessions:
   - "2020-09-17"
   - "2020-09-22"
-draft: true
 ---
 
 At breakfast, {{< npc Vayne >}} introduced us to her sister, {{< npc "Avery" >}}. Avery is almost identical to Vayne, and they sat down with us and told us that their family used to be wealthy a few generations ago and into artworks. They would commission portraits but over time their fortunes waned and they had to sell the portraits until they only had one left.<!--more-->
