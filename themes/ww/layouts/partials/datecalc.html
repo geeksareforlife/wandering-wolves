@@ -19,10 +19,10 @@
 {{- $dayName := index $days $weekDayIndex -}}
 {{- $ordinal := index $ordinals $dayInMonth -}}
 {{/* Luna is almost entirely in sync with the month */}}
-{{- $lunaPhase := mod (sub $dayInMonth 1) 28 -}}
+{{- $lunaPhase := mod (sub (add $dayInMonth 28) 2) 28 -}}
 {{/* Celene has 91 days in the cycle and starts at day 44 of the year */}}
-{{- $celenePhase := mod (sub $dayInYear 43) 91 -}}
+{{- $celenePhase := mod (sub (add $dayInYear 91) 44) 91 -}}
 
-{{- $return := dict "year" $year "month" (add $monthIndex 1) "monthName" $monthName "week" $weekNumber "day" $dayInMonth "weekday" $dayName "ordinal" $ordinal "luna" $lunaPhase "celene" $celenePhase -}}
+{{- $return := dict "year" $year "month" (add $monthIndex 1) "monthName" $monthName "week" $weekNumber "day" $dayInMonth "weekday" $dayName "ordinal" $ordinal "dayInYear" $dayInYear "luna" $lunaPhase "celene" $celenePhase -}}
 
 {{- return $return -}}
