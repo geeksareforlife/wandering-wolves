@@ -9,7 +9,7 @@ sessions:
   - "2020-10-13"
 ---
 
-When we got the landslide we found it had revealed an ominous doorway in the side of a cliff. We also found {{< npc Sprune >}} 20 or so feet away sketching the doorway on an easel in front of his shelter.
+When we got the landslide we found it had revealed an ominous doorway in the side of a cliff. We also found {{< npc Sprune >}} 20 or so feet away sketching the doorway on an easel in front of his shelter.<!--more-->
 
 We introduced ourselves and he tells of the fine stonework around the door, but that he has also seen animals and orcs and goblins going in and out of the door.
 
