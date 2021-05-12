@@ -1,0 +1,10 @@
+{{- $location := partial "parsething.html" (.Get 0) -}}
+{{- $page := .Page.GetPage ($location | printf "%s%s" "/objects/") -}}
+{{- $replaceTitle := .Get 1 -}}
+
+
+{{- if not $page -}}
+  <span class="link-missing"> {{- if $replaceTitle -}} {{- $replaceTitle -}} {{- else -}} {{- (.Get 0) -}} {{- end -}} </span>
+{{- else -}}
+  <a href=" {{- $page.Permalink -}} " class="link-location"> {{- if $replaceTitle -}} {{- $replaceTitle -}} {{- else -}} {{- $page.Title -}} {{- end -}} </a>
+{{- end -}}

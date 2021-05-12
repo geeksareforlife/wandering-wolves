@@ -45,6 +45,6 @@ As Captain Elva left, he wished us well and told us to see him if we need any wo
 
 Grun and I retired to the {{< location "Cleft Boulder" >}} for drinks while Tooms took a walk around town, to get his bearings a bit more. 
 
-Whilst at the Cleft Boulder, {{< npc "Strot" >}} told us of pit fights every 10th day and tells us that we can take part if we wish.
+Whilst at the Cleft Boulder, {{< npc "Strot" >}} told us of pit fights every 10th day and tells us that we can take part if we wish. We also head more about the {{< group "Hartess Family" "Hartess" >}} mine shutting down suddenly and decided we should investigate.
 
 Grun and I met Tooms back at the Silver Oak, and Vayne greeted us all as friends and offered more food. We decided on desert - a nice apple crumble and headed to bed.
