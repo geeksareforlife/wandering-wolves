@@ -15,8 +15,3 @@ title = "The Chronicles of the Wandering Wolves"
   place = "places"
   group = "groups"
   org = "orgs"
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Clacks-Overhead = "GNU Terry Pratchett"
